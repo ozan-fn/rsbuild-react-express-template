@@ -1,0 +1,31 @@
+{
+    "name": "rsbuild-react-express-template",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "build": "rsbuild build",
+        "dev": "rsbuild dev",
+        "start": "rsbuild preview"
+    },
+    "dependencies": {
+        "express": "^5.2.1",
+        "react": "^19.2.3",
+        "react-dom": "^19.2.3"
+    },
+    "devDependencies": {
+        "@rsbuild/core": "^1.7.1",
+        "@rsbuild/plugin-babel": "^1.1.2",
+        "@rsbuild/plugin-react": "^1.4.2",
+        "@tailwindcss/postcss": "^4.1.18",
+        "@types/express": "^5.0.6",
+        "@types/node": "^25.5.0",
+        "@types/react": "^19.2.7",
+        "@types/react-dom": "^19.2.3",
+        "babel-plugin-react-compiler": "^1.0.0",
+        "tailwindcss": "^4.1.18",
+        "typescript": "^5.9.3"
+    },
+    "trustedDependencies": [
+        "core-js"
+    ]
+}
